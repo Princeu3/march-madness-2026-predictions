@@ -24,16 +24,20 @@ pie title Men's Title Probability
     "Field" : 14.5
 ```
 
-| # | Team | Power Rating | Title Odds | Make Finals |
-|---|------|:------------:|:----------:|:-----------:|
-| 1 | **Michigan** | 2069 | **21.0%** | 25.9% |
-| 2 | Houston | 1967 | 12.8% | 17.2% |
-| 3 | Duke | 2078 | 12.2% | 17.3% |
-| 4 | Florida | 2035 | 9.2% | 11.9% |
-| 5 | Arizona | 2032 | 7.6% | 10.0% |
-| 6 | Purdue | 1884 | 7.3% | 23.7% |
-| 7 | UConn | 1971 | 5.4% | 9.1% |
-| 8 | Michigan St | 1935 | 5.4% | 19.9% |
+
+
+
+| #   | Team         | Power Rating | Title Odds | Make Finals |
+| --- | ------------ | ------------ | ---------- | ----------- |
+| 1   | **Michigan** | 2069         | **21.0%**  | 25.9%       |
+| 2   | Houston      | 1967         | 12.8%      | 17.2%       |
+| 3   | Duke         | 2078         | 12.2%      | 17.3%       |
+| 4   | Florida      | 2035         | 9.2%       | 11.9%       |
+| 5   | Arizona      | 2032         | 7.6%       | 10.0%       |
+| 6   | Purdue       | 1884         | 7.3%       | 23.7%       |
+| 7   | UConn        | 1971         | 5.4%       | 9.1%        |
+| 8   | Michigan St  | 1935         | 5.4%       | 19.9%       |
+
 
 ### Women's — Who Takes the Crown?
 
@@ -49,15 +53,19 @@ pie title Women's Title Probability
     "Field" : 10.6
 ```
 
-| # | Team | Power Rating | Title Odds | Make Finals |
-|---|------|:------------:|:----------:|:-----------:|
-| 1 | **UConn** | 2259 | **31.0%** | 35.1% |
-| 2 | South Carolina | 2200 | 18.0% | 20.0% |
-| 3 | UCLA | 2212 | 17.1% | 18.8% |
-| 4 | LSU | 2074 | 10.0% | 12.8% |
-| 5 | Texas | 2131 | 5.7% | 6.8% |
-| 6 | Iowa | 2015 | 4.3% | 25.1% |
-| 7 | Duke | 2000 | 3.3% | 20.5% |
+
+
+
+| #   | Team           | Power Rating | Title Odds | Make Finals |
+| --- | -------------- | ------------ | ---------- | ----------- |
+| 1   | **UConn**      | 2259         | **31.0%**  | 35.1%       |
+| 2   | South Carolina | 2200         | 18.0%      | 20.0%       |
+| 3   | UCLA           | 2212         | 17.1%      | 18.8%       |
+| 4   | LSU            | 2074         | 10.0%      | 12.8%       |
+| 5   | Texas          | 2131         | 5.7%       | 6.8%        |
+| 6   | Iowa           | 2015         | 4.3%       | 25.1%       |
+| 7   | Duke           | 2000         | 3.3%       | 20.5%       |
+
 
 > Championship odds from 50,000 Monte Carlo tournament simulations using our model's head-to-head win probabilities.
 
@@ -67,24 +75,28 @@ pie title Women's Title Probability
 
 Games the model thinks will be the most competitive if these teams meet:
 
-| Matchup | Predicted Winner | Win Probability |
-|---------|:----------------:|:---------------:|
-| Tennessee vs Alabama | Tennessee | 50.5% |
-| Arizona vs Houston | Arizona | 51.0% |
-| Duke vs Illinois | Duke | 51.0% |
-| Arizona vs Florida | Arizona | 51.4% |
-| Florida vs Houston | Florida | 51.8% |
-| Florida vs UConn | Florida | 52.3% |
+
+| Matchup              | Predicted Winner | Win Probability |
+| -------------------- | ---------------- | --------------- |
+| Tennessee vs Alabama | Tennessee        | 50.5%           |
+| Arizona vs Houston   | Arizona          | 51.0%           |
+| Duke vs Illinois     | Duke             | 51.0%           |
+| Arizona vs Florida   | Arizona          | 51.4%           |
+| Florida vs Houston   | Florida          | 51.8%           |
+| Florida vs UConn     | Florida          | 52.3%           |
+
 
 And the matchups the model is most confident about:
 
-| Matchup | Predicted Winner | Win Probability |
-|---------|:----------------:|:---------------:|
-| Michigan vs Kansas | Michigan | 90.6% |
-| Michigan vs Alabama | Michigan | 90.1% |
-| Duke vs Alabama | Duke | 87.7% |
-| Michigan vs Gonzaga | Michigan | 86.4% |
-| Duke vs Virginia | Duke | 86.3% |
+
+| Matchup             | Predicted Winner | Win Probability |
+| ------------------- | ---------------- | --------------- |
+| Michigan vs Kansas  | Michigan         | 90.6%           |
+| Michigan vs Alabama | Michigan         | 90.1%           |
+| Duke vs Alabama     | Duke             | 87.7%           |
+| Michigan vs Gonzaga | Michigan         | 86.4%           |
+| Duke vs Virginia    | Duke             | 86.3%           |
+
 
 ---
 
@@ -96,6 +108,8 @@ flowchart LR
     B --> C["3 ML Models\nVote Together"]
     C --> D["Win Probability\nfor Every Matchup"]
 ```
+
+
 
 **The short version:** We feed two decades of college basketball data into three machine learning models, and they vote on who wins every possible game.
 
@@ -117,17 +131,21 @@ flowchart TD
     TEAM --> COACH["Coaching\nTournament experience\n& program tenure"]
 ```
 
+
+
 For any matchup — say Michigan vs Duke — we compare all these dimensions and let the models figure out who has the edge.
 
 ### The Three Models
 
 We don't rely on a single model. Three different algorithms each make independent predictions, and we average them:
 
-| Model | What It's Good At |
-|-------|-------------------|
-| **LightGBM** | Fast, handles missing data well |
-| **XGBoost** | Strong with structured/tabular data |
-| **CatBoost** | Robust against overfitting |
+
+| Model        | What It's Good At                   |
+| ------------ | ----------------------------------- |
+| **LightGBM** | Fast, handles missing data well     |
+| **XGBoost**  | Strong with structured/tabular data |
+| **CatBoost** | Robust against overfitting          |
+
 
 When all three agree, we're confident. When they disagree, the average keeps us from being too extreme.
 
@@ -135,16 +153,18 @@ When all three agree, we're confident. When they disagree, the average keeps us 
 
 The model's top signals when predicting who wins (ranked by importance):
 
-| # | Signal | In Plain English |
-|---|--------|------------------|
-| 1 | Peak Power Rating | The best a team played all season |
-| 2 | Average Power Rating | Consistent strength across the year |
-| 3 | End-of-Season Rating | Where the team finished |
-| 4 | Schedule Strength | Strong opponents = battle-tested |
-| 5 | Conference Quality | Playing in a tough league matters |
-| 6 | Tournament Seed | Higher seeds historically win more |
-| 7 | Free Throw Rate | Getting to the line is crucial in March |
-| 8 | Offensive Efficiency | Points per possession |
+
+| #   | Signal               | In Plain English                        |
+| --- | -------------------- | --------------------------------------- |
+| 1   | Peak Power Rating    | The best a team played all season       |
+| 2   | Average Power Rating | Consistent strength across the year     |
+| 3   | End-of-Season Rating | Where the team finished                 |
+| 4   | Schedule Strength    | Strong opponents = battle-tested        |
+| 5   | Conference Quality   | Playing in a tough league matters       |
+| 6   | Tournament Seed      | Higher seeds historically win more      |
+| 7   | Free Throw Rate      | Getting to the line is crucial in March |
+| 8   | Offensive Efficiency | Points per possession                   |
+
 
 ---
 
@@ -152,21 +172,23 @@ The model's top signals when predicting who wins (ranked by importance):
 
 We validated the model by predicting past tournaments it had never seen:
 
-| Tournament | Brier Score | Accuracy Context |
-|------------|:----------:|-----------------|
-| 2022 | 0.189 | Solid — St. Peter's Cinderella run was tough |
-| 2023 | 0.194 | Good — UConn's dominance was predicted |
-| 2024 | 0.161 | Strong — fewer major upsets |
-| 2025 | 0.126 | Excellent — model improving with more data |
-| **Average** | **0.167** | **Competitive with top public solutions** |
 
-> **Brier Score** measures how close predictions are to reality (0 = perfect, 1 = worst). Lower is better. A coin flip scores 0.25.
+| Tournament  | Brier Score | Accuracy Context                             |
+| ----------- | ----------- | -------------------------------------------- |
+| 2022        | 0.189       | Solid — St. Peter's Cinderella run was tough |
+| 2023        | 0.194       | Good — UConn's dominance was predicted       |
+| 2024        | 0.161       | Strong — fewer major upsets                  |
+| 2025        | 0.126       | Excellent — model improving with more data   |
+| **Average** | **0.167**   | **Competitive with top public solutions**    |
+
+
+> scores 0.25.
 
 ---
 
 ## Run It Yourself
 
-The full pipeline is in [`submission_notebook.ipynb`](submission_notebook.ipynb). It runs end-to-end on [Kaggle](https://www.kaggle.com/competitions/march-machine-learning-mania-2026) or locally.
+The full pipeline is in `[submission_notebook.ipynb](submission_notebook.ipynb)`. It runs end-to-end on [Kaggle](https://www.kaggle.com/competitions/march-machine-learning-mania-2026) or locally.
 
 **Requirements:** Python 3.8+, pandas, numpy, scikit-learn, lightgbm, xgboost, catboost
 
