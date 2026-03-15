@@ -1,0 +1,12 @@
+I am applying for March Madness 2026 Kaggle Competition- https://www.kaggle.com/code/martynaplomecka/march-machine-learning-mania-2026-starter
+
+I want to win this Kaggle Competition. Here are ref links of most voted notebooks (Notebooks Submitted on Kaggle)
+- kaggle kernels pull martynaplomecka/march-machine-learning-mania-2026-starter
+- kaggle kernels pull lennarthaupts/calculate-elo-ratings
+- kaggle kernels pull kaito510/goto-conversion-winning-solution
+- kaggle kernels pull jiaoyouzhang/ncaa-2026-stage2-lightgbm
+- kaggle kernels pull ravi20076/ncaa2026-public-baseline-v1
+- kaggle kernels pull ibrahimqasimi/ncaa-2026-eda-elo-ratings-and-gradient-esemble
+- kaggle kernels pull veniaminnelin/lb-0-0-time-and-chance-happen-to-them-all
+
+Here is the data folder given in this repo. 

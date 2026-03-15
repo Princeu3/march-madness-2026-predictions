@@ -1,0 +1,8 @@
+catboost_info/
+march-machine-learning-mania-2026/
+notebooks/
+kaggle.json
+submission.csv
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
