@@ -12,16 +12,17 @@ Built for the [Kaggle March Machine Learning Mania 2026](https://www.kaggle.com/
 
 ```mermaid
 pie title Men's Title Probability
-    "Michigan" : 21.0
-    "Houston" : 12.8
-    "Duke" : 12.2
-    "Florida" : 9.2
-    "Arizona" : 7.6
-    "Purdue" : 7.3
-    "UConn" : 5.4
-    "Michigan St" : 5.4
-    "Illinois" : 4.6
-    "Field" : 14.5
+    "Duke" : 18.7
+    "Michigan" : 17.8
+    "Arizona" : 10.8
+    "Houston" : 8.2
+    "Florida" : 7.1
+    "Iowa St" : 6.9
+    "Illinois" : 6.3
+    "Purdue" : 5.1
+    "UConn" : 4.6
+    "Michigan St" : 4.4
+    "Field" : 10.1
 ```
 
 
@@ -29,42 +30,44 @@ pie title Men's Title Probability
 
 | #   | Team         | Power Rating | Title Odds | Make Finals |
 | --- | ------------ | ------------ | ---------- | ----------- |
-| 1   | **Michigan** | 2069         | **21.0%**  | 25.9%       |
-| 2   | Houston      | 1967         | 12.8%      | 17.2%       |
-| 3   | Duke         | 2078         | 12.2%      | 17.3%       |
-| 4   | Florida      | 2035         | 9.2%       | 11.9%       |
-| 5   | Arizona      | 2032         | 7.6%       | 10.0%       |
-| 6   | Purdue       | 1884         | 7.3%       | 23.7%       |
-| 7   | UConn        | 1971         | 5.4%       | 9.1%        |
-| 8   | Michigan St  | 1935         | 5.4%       | 19.9%       |
+| 1   | **Duke**     | 2078         | **18.7%**  | 22.1%       |
+| 2   | Michigan     | 2069         | 17.8%      | 21.3%       |
+| 3   | Arizona      | 2032         | 10.8%      | 14.2%       |
+| 4   | Houston      | 1967         | 8.2%       | 11.5%       |
+| 5   | Florida      | 2035         | 7.1%       | 9.8%        |
+| 6   | Iowa St      | —            | 6.9%       | 9.4%        |
+| 7   | Illinois     | 1909         | 6.3%       | 8.7%        |
+| 8   | Purdue       | 1884         | 5.1%       | 7.6%        |
+| 9   | UConn        | 1971         | 4.6%       | 7.1%        |
+| 10  | Michigan St  | 1935         | 4.4%       | 6.8%        |
 
 
 ### Women's — Who Takes the Crown?
 
 ```mermaid
 pie title Women's Title Probability
-    "UConn" : 31.0
-    "South Carolina" : 18.0
-    "UCLA" : 17.1
-    "LSU" : 10.0
-    "Texas" : 5.7
-    "Iowa" : 4.3
-    "Duke" : 3.3
-    "Field" : 10.6
+    "UConn" : 27.9
+    "South Carolina" : 20.9
+    "UCLA" : 17.0
+    "Texas" : 13.4
+    "LSU" : 3.6
+    "Duke" : 3.1
+    "Iowa" : 3.0
+    "Field" : 11.1
 ```
 
 
 
 
-| #   | Team           | Power Rating | Title Odds | Make Finals |
-| --- | -------------- | ------------ | ---------- | ----------- |
-| 1   | **UConn**      | 2259         | **31.0%**  | 35.1%       |
-| 2   | South Carolina | 2200         | 18.0%      | 20.0%       |
-| 3   | UCLA           | 2212         | 17.1%      | 18.8%       |
-| 4   | LSU            | 2074         | 10.0%      | 12.8%       |
-| 5   | Texas          | 2131         | 5.7%       | 6.8%        |
-| 6   | Iowa           | 2015         | 4.3%       | 25.1%       |
-| 7   | Duke           | 2000         | 3.3%       | 20.5%       |
+| #   | Team               | Power Rating | Title Odds | Make Finals |
+| --- | ------------------ | ------------ | ---------- | ----------- |
+| 1   | **UConn**          | 2259         | **27.9%**  | 32.4%       |
+| 2   | South Carolina     | 2200         | 20.9%      | 23.5%       |
+| 3   | UCLA               | 2212         | 17.0%      | 19.2%       |
+| 4   | Texas              | 2131         | 13.4%      | 15.6%       |
+| 5   | LSU                | 2074         | 3.6%       | 5.2%        |
+| 6   | Duke               | 2000         | 3.1%       | 4.8%        |
+| 7   | Iowa               | 2015         | 3.0%       | 4.5%        |
 
 
 > Championship odds from 50,000 Monte Carlo tournament simulations using our model's head-to-head win probabilities.
@@ -78,24 +81,24 @@ Games the model thinks will be the most competitive if these teams meet:
 
 | Matchup              | Predicted Winner | Win Probability |
 | -------------------- | ---------------- | --------------- |
-| Tennessee vs Alabama | Tennessee        | 50.5%           |
+| Duke vs Michigan     | Duke             | 50.3%           |
+| Florida vs UConn     | Florida          | 50.5%           |
+| Kansas vs Purdue     | Kansas           | 50.6%           |
 | Arizona vs Houston   | Arizona          | 51.0%           |
 | Duke vs Illinois     | Duke             | 51.0%           |
 | Arizona vs Florida   | Arizona          | 51.4%           |
-| Florida vs Houston   | Florida          | 51.8%           |
-| Florida vs UConn     | Florida          | 52.3%           |
 
 
 And the matchups the model is most confident about:
 
 
-| Matchup             | Predicted Winner | Win Probability |
-| ------------------- | ---------------- | --------------- |
-| Michigan vs Kansas  | Michigan         | 90.6%           |
-| Michigan vs Alabama | Michigan         | 90.1%           |
-| Duke vs Alabama     | Duke             | 87.7%           |
-| Michigan vs Gonzaga | Michigan         | 86.4%           |
-| Duke vs Virginia    | Duke             | 86.3%           |
+| Matchup              | Predicted Winner | Win Probability |
+| -------------------- | ---------------- | --------------- |
+| Michigan vs Kansas   | Michigan         | 90.5%           |
+| Michigan vs BYU      | Michigan         | 89.8%           |
+| Duke vs St Mary's    | Duke             | 88.9%           |
+| Duke vs Alabama      | Duke             | 87.7%           |
+| Michigan vs Gonzaga  | Michigan         | 86.4%           |
 
 
 ---
@@ -179,7 +182,7 @@ We validated the model by predicting past tournaments it had never seen:
 | 2023        | 0.194       | Good — UConn's dominance was predicted       |
 | 2024        | 0.161       | Strong — fewer major upsets                  |
 | 2025        | 0.126       | Excellent — model improving with more data   |
-| **Average** | **0.167**   | **Competitive with top public solutions**    |
+| **Average** | **0.168**   | **Competitive with top public solutions**    |
 
 
 > scores 0.25.
