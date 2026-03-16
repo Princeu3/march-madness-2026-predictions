@@ -35,7 +35,7 @@ pie title Men's Title Probability
 | 3   | Arizona      | 2032         | 10.8%      | 14.2%       |
 | 4   | Houston      | 1967         | 8.2%       | 11.5%       |
 | 5   | Florida      | 2035         | 7.1%       | 9.8%        |
-| 6   | Iowa St      | —            | 6.9%       | 9.4%        |
+| 6   | Iowa St      | 1861         | 6.9%       | 9.4%        |
 | 7   | Illinois     | 1909         | 6.3%       | 8.7%        |
 | 8   | Purdue       | 1884         | 5.1%       | 7.6%        |
 | 9   | UConn        | 1971         | 4.6%       | 7.1%        |
