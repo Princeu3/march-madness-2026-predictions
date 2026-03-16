@@ -103,6 +103,131 @@ And the matchups the model is most confident about:
 
 ---
 
+## First Round Predictions
+
+The actual bracket matchups — who advances?
+
+### Men's First Round
+
+**EAST (Washington DC)**
+| Matchup | Winner | Prob |
+|---------|:------:|:----:|
+| (1) Duke vs (16) Siena | Duke | 96.4% |
+| (8) Ohio St vs (9) TCU | Ohio St | 58.0% |
+| (5) St John's vs (12) Northern Iowa | St John's | 84.1% |
+| (4) Kansas vs (13) Cal Baptist | Kansas | 85.8% |
+| (6) Louisville vs (11) South Florida | Louisville | 80.5% |
+| (3) Michigan St vs (14) N Dakota St | Michigan St | 90.4% |
+| (7) UCLA vs (10) UCF | UCLA | 65.0% |
+| (2) UConn vs (15) Furman | UConn | 94.0% |
+
+**WEST (San Jose)**
+| Matchup | Winner | Prob |
+|---------|:------:|:----:|
+| (1) Arizona vs (16) LIU | Arizona | 95.8% |
+| (8) Villanova vs (9) Utah St | **Utah St** | **52.7%** |
+| (5) Wisconsin vs (12) High Point | Wisconsin | 67.7% |
+| (4) Arkansas vs (13) Hawaii | Arkansas | 86.2% |
+| (6) BYU vs (11) Texas | BYU | 78.9% |
+| (3) Gonzaga vs (14) Kennesaw | Gonzaga | 94.5% |
+| (7) Miami FL vs (10) Missouri | Miami FL | 60.4% |
+| (2) Purdue vs (15) Queens | Purdue | 93.8% |
+
+**SOUTH (Houston)**
+| Matchup | Winner | Prob |
+|---------|:------:|:----:|
+| (1) Florida vs (16) Prairie View | Florida | 96.4% |
+| (8) Clemson vs (9) Iowa | **Iowa** | **56.6%** |
+| (5) Vanderbilt vs (12) McNeese St | Vanderbilt | 78.1% |
+| (4) Nebraska vs (13) Troy | Nebraska | 90.2% |
+| (6) North Carolina vs (11) VCU | North Carolina | 76.4% |
+| (3) Illinois vs (14) Penn | Illinois | 92.4% |
+| (7) St Mary's vs (10) Texas A&M | St Mary's | 69.8% |
+| (2) Houston vs (15) Idaho | Houston | 94.5% |
+
+**MIDWEST (Chicago)**
+| Matchup | Winner | Prob |
+|---------|:------:|:----:|
+| (1) Michigan vs (16) UMBC | Michigan | 95.9% |
+| (8) Georgia vs (9) St Louis | Georgia | 50.4% |
+| (5) Texas Tech vs (12) Akron | Texas Tech | 87.0% |
+| (4) Alabama vs (13) Hofstra | Alabama | 82.5% |
+| (6) Tennessee vs (11) Miami OH | Tennessee | 73.3% |
+| (3) Virginia vs (14) Wright St | Virginia | 89.9% |
+| (7) Kentucky vs (10) Santa Clara | Kentucky | 70.4% |
+| (2) Iowa St vs (15) Tennessee St | Iowa St | 93.1% |
+
+### Women's First Round
+
+**REGION 1 (Fort Worth)**
+| Matchup | Winner | Prob |
+|---------|:------:|:----:|
+| (1) UConn vs (16) UT San Antonio | UConn | 97.2% |
+| (8) Iowa St vs (9) Syracuse | Iowa St | 69.5% |
+| (5) Maryland vs (12) Murray St | Maryland | 91.2% |
+| (4) North Carolina vs (13) W Illinois | North Carolina | 93.9% |
+| (6) Notre Dame vs (11) Fairfield | Notre Dame | 66.0% |
+| (3) Ohio St vs (14) Howard | Ohio St | 97.3% |
+| (7) Illinois vs (10) Colorado | Illinois | 62.3% |
+| (2) Vanderbilt vs (15) High Point | Vanderbilt | 97.5% |
+
+**REGION 2 (Sacramento)**
+| Matchup | Winner | Prob |
+|---------|:------:|:----:|
+| (1) UCLA vs (16) Cal Baptist | UCLA | 97.0% |
+| (8) Oklahoma St vs (9) Princeton | Oklahoma St | 53.8% |
+| (5) Ole Miss vs (12) Gonzaga | Ole Miss | 81.7% |
+| (4) Minnesota vs (13) Green Bay | Minnesota | 90.4% |
+| (6) Baylor vs (11) Nebraska | Baylor | 60.7% |
+| (3) Duke vs (14) Charleston | Duke | 96.2% |
+| (7) Texas Tech vs (10) Villanova | **Villanova** | **50.3%** |
+| (2) LSU vs (15) Jacksonville | LSU | 98.0% |
+
+**REGION 3**
+| Matchup | Winner | Prob |
+|---------|:------:|:----:|
+| (1) Texas vs (16) Missouri St | Texas | 97.5% |
+| (8) Oregon vs (9) Virginia Tech | Oregon | 68.1% |
+| (5) Kentucky vs (12) James Madison | Kentucky | 86.2% |
+| (4) West Virginia vs (13) Miami OH | West Virginia | 93.7% |
+| (6) Alabama vs (11) Rhode Island | Alabama | 77.4% |
+| (3) Louisville vs (14) Vermont | Louisville | 92.3% |
+| (7) NC State vs (10) Tennessee | **Tennessee** | **51.7%** |
+| (2) Michigan vs (15) Holy Cross | Michigan | 97.9% |
+
+**REGION 4**
+| Matchup | Winner | Prob |
+|---------|:------:|:----:|
+| (1) South Carolina vs (16) Southern | South Carolina | 97.4% |
+| (8) Clemson vs (9) USC | **USC** | **82.2%** |
+| (5) Michigan St vs (12) Colorado St | Michigan St | 93.8% |
+| (4) Oklahoma vs (13) Idaho | Oklahoma | 96.5% |
+| (6) Washington vs (11) S Dakota St | Washington | 59.7% |
+| (3) TCU vs (14) UC San Diego | TCU | 95.8% |
+| (7) Georgia vs (10) Virginia | Georgia | 55.3% |
+| (2) Iowa vs (15) F Dickinson | Iowa | 96.3% |
+
+### Upset Watch
+
+Games most likely to go the wrong way for the higher seed:
+
+| Tournament | Favorite | Underdog | Upset Prob |
+|:----------:|----------|----------|:----------:|
+| Women's | (8) Clemson | **(9) USC** | **82.2%** |
+| Men's | (8) Clemson | **(9) Iowa** | **56.6%** |
+| Men's | (8) Villanova | **(9) Utah St** | **52.7%** |
+| Women's | (7) NC State | **(10) Tennessee** | **51.7%** |
+| Women's | (7) Texas Tech | **(10) Villanova** | **50.3%** |
+| Men's | (8) Georgia | (9) St Louis | 49.6% |
+| Women's | (8) Oklahoma St | (9) Princeton | 46.2% |
+| Women's | (7) Georgia | (10) Virginia | 44.7% |
+| Men's | (8) Ohio St | (9) TCU | 42.0% |
+| Women's | (6) Washington | (11) S Dakota St | 40.3% |
+
+> **Bold** = model predicts the upset. No major Cinderella (12+ seed) is predicted, but (12) High Point has a 32.3% shot against Wisconsin.
+
+---
+
 ## How It Works
 
 ```mermaid
