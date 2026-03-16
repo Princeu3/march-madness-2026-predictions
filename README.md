@@ -30,7 +30,7 @@ pie title Men's Title Probability
 
 | #   | Team         | Power Rating | Title Odds | Make Finals |
 | --- | ------------ | ------------ | ---------- | ----------- |
-| 1   | **Duke**     | 2078         | **18.7%**  | 22.1%       |
+| 1   | **Duke**     | 2078         | **18.7%**  | 23.0%       |
 | 2   | Michigan     | 2069         | 17.8%      | 21.3%       |
 | 3   | Arizona      | 2032         | 10.8%      | 14.2%       |
 | 4   | Houston      | 1967         | 8.2%       | 11.5%       |
