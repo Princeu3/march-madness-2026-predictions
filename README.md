@@ -6,7 +6,62 @@ Built for the [Kaggle March Machine Learning Mania 2026](https://www.kaggle.com/
 
 ---
 
-## Our Picks
+## Results — How Did the Model Do?
+
+The tournament is over. Here's the scorecard.
+
+### Men's Tournament
+
+**Champion: Michigan (69-63 over UConn)**
+
+| Team | Model Rank | Title Odds | Actual Result |
+| --- | --- | --- | --- |
+| **Michigan** | #2 | 17.8% | **Won the championship** |
+| Duke | #1 | 18.7% | Lost in Elite Eight (72-73 vs UConn, buzzer-beating 3) |
+| Arizona | #3 | 10.8% | Lost in Final Four (73-91 vs Michigan) |
+| UConn | #9 | 4.6% | Made the championship game |
+| Illinois | #7 | 6.3% | Made the Final Four |
+
+- Model's champion pick (Duke) lost on a last-second 3-pointer by Braylon Mullins with 0.4 seconds left
+- The eventual champion was the model's #2 pick out of 68 teams
+- 3 of 4 Final Four teams (Michigan, Arizona, Illinois) were in the model's top 7
+- Biggest miss: UConn at 4.6% title odds made the championship game
+
+**Upset calls:**
+
+| Prediction | Result | Verdict |
+| --- | --- | --- |
+| Iowa over Clemson (57%) | Iowa 67-61 | Correct |
+| Utah State over Villanova (53%) | Utah State 86-76 | Correct |
+| High Point over Wisconsin (32.3%) | High Point 83-82 | Happened (not flagged as predicted upset) |
+
+### Women's Tournament
+
+**Champion: UCLA (79-51 over South Carolina)**
+
+| Team | Model Rank | Title Odds | Actual Result |
+| --- | --- | --- | --- |
+| UConn | #1 | 27.9% | Lost in Final Four (48-62 vs South Carolina) |
+| **South Carolina** | #2 | 20.9% | **Made the championship game** |
+| **UCLA** | #3 | 17.0% | **Won the championship** |
+
+- The actual champion and runner-up were the model's #3 and #2 picks
+- UConn entered the tournament 34-0 and lost in the Final Four, finishing 38-1
+- Giving an undefeated team 27.9% title odds looked aggressive at the time — turned out to be about right
+
+### Summary
+
+| Metric | Result |
+| --- | --- |
+| Men's champion ranked | #2 out of 68 |
+| Women's champion ranked | #3 out of 68 |
+| First-round upset calls | 2 for 2 |
+| Men's Final Four accuracy | 3 of 4 |
+| Women's Final Four accuracy | 2 of 4 |
+
+---
+
+## Our Picks (Pre-Tournament)
 
 ### Men's — Who Cuts Down the Nets?
 
